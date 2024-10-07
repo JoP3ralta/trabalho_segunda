@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+body {
+    background-color: #f0e2c4;
+ 
+}
+
+/* A partir desse texto é toda a parte do cabeçalho */
+
+nav {
+    padding: 1.2rem;
+    width: 100%;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 20px 20px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.2rem;
+
+}
+
+li {
+    display: inline-block;
+}
+
+li a:hover {
+    color: #013cff;
+}
+
+
+
+.meio {
+
+    display: flex;
+    float: left;
+    padding: 1%;
+    font-size: 2.2rem;
+    color: white;
+}
+
+
+.cabecalho {
+    background-image: linear-gradient(to right, #0f3b50, #2f4f4f);
+    padding: 1.2rem;
+    width: 100%;
+}
+
+/* a partir daqui, é toda a parte vista dentro do container */
+
+
+.sobre {
+    height: 55vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 6rem;
+    color: #124949;
+}
+
+.sobre h2 {
+ 
+    margin-bottom: 2rem;
+    line-height: 1.2rem;
+}
+
+
+h2 { font-size: 2rem;}
+
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2;
+    margin-top: 4%;
+    border-radius: 7%;
+}
+
+
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    background: #f1f1f1;
+    margin-bottom: 2rem;
+}
+
+.card h3 {
+    margin-bottom: 2rem;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+}
+
+.card>div {
+    padding: 2rem;
+}
+
+.card:nth-child(even) img {
+    order: 2;
+}
+
+
+.texto_1 {
+font-size: 120%;
+padding: 10%;
+padding-top: 50%;
+
+}
+
+.texto_2 {
+font-size: 120%;
+
+}
+
+.img_2 { padding-left: 10%;
+padding-bottom: 20%;
+}
+
+
+.parceiros-img {
+    display: flex;
+}
+
+/* a partir daqui é toda a parte dos parceiros */
+
+.parceiros {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+
+}
+
+.parceiros-img img {
+    opacity: 0.5;
+  
+}
+
+.parceiros-img img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+}
+
+.parceiros h2 {
+    color: #a200ff;
+}
+
+/* nosso footer */
+
+footer {
+    padding: 35px 0;
+    background-image: linear-gradient(to right, #0f3b50, #2f4f4f);
+    color: aliceblue;
+    text-align: center;
+    margin-top: 3%;
+
+}

@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 1.2rem;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    padding: 20px 20px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+li {
+    display: inline-block;
+}
+
+li a:hover {
+    color: #013cff;
+}
+
+.meio {
+    display: flex;
+    float: left;
+    padding: 1%;
+    font-size: 2.2rem;
+    color: white;
+}
+
+.cabecalho {
+    background-image: linear-gradient(to right, #0f3b50, #2f4f4f);
+    padding: 1rem;
+    width: 100%;
+}
+
+body {
+    background-color: #f0e2c4;
+}
+
+
+
+.btn_sign_in input{
+  font-family: "poppins", sans-serif;
+  font-size: 20;
+  width: 165px;
+  height: 35px;
+  background-color: #000000;
+  padding: 9px 50px;
+  border: none;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container_v6 {
+    margin-top: 10%;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #3537be;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 10px;
+    background-color: #0f3b50;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+    
+form button:hover {
+    background: #292424;
+} 

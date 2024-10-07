@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.cabecalho {
+    background-image: linear-gradient(to right, #0f3b50, #2f4f4f);
+    display: flex;
+}
+
+.cabecalho h1 {
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    color: white;
+    font-size: 2.6rem;
+    display: flex;
+    float: left;
+    padding: 15px;
+    font-size: 2.2rem;
+    color: white;
+}
+
+
+
+.cabecalho nav a {
+    font-size: 1.6rem;
+    color: aliceblue;
+    display: flexbox;
+    text-decoration: none;
+
+}
+
+ul {
+    display: flex;
+    align-items: end;
+}
+
+nav {
+    display: flex;
+    align-items: end;
+}
+
+nav a:hover {
+    color: #0026ff;
+}
